@@ -1,0 +1,133 @@
+/* UNIVERSAL STYLES */
+
+html {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* HEADER */
+
+ .header.flex-container {
+  display: flex;
+  height: 69px;
+  width: auto;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+  img {
+  position: absolute;
+  height: 50px;
+  align-self: center;
+}
+
+  ul {
+  display: flex;
+  list-style: none;
+  text-decoration: underline;
+  margin-left: auto;
+  margin-right: 10px;
+
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* BANNER */
+
+.banner.flex-container {
+  display: flex;
+  height: 700px;
+  width: 1000px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner h2, p {
+
+  background-color: black;
+}
+
+/* TEA OF THE MONTH SECTION */
+
+
+.tom-text {
+  text-align: center;
+}
+
+.tom-container {
+  display: flex;
+  height: 700px;
+  width: 1000px;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+   /* I couldn't get the container to center itself by using justify-content: center if you could let me know what I needed to do to accomplish this I'd apreciate it  */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tom-container img {
+  position: relative;
+  height: 200px;
+  width: 300px;
+}
+
+/* LOCATION */
+
+.locations {
+  height: 500px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  text-align: center;
+}
+
+.locations h2 {
+  padding-top: 100px;
+}
+
+.locations1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.location {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+
+}
+
+/* FOOTER   */
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  text-align: center;
+}
+
+.footer span {
+  float: left;
+  margin-left: 20px;
+}
